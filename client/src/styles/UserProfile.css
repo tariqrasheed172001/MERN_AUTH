@@ -1,0 +1,36 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #f6d365;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1))
+  }
+
+  .dashboard-button{
+    background: black;
+    color: white;
+    border: 1px solid black;
+    transition: background 1s linear 0ms;
+    transition: color 500ms linear 0ms;
+
+    width: 500px;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: 500;
+    margin-top: 10px;
+
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  
+  .dashboard-button:hover{
+    color: #333;
+    background-color: white;
+  }
